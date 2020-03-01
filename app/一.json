@@ -1,0 +1,205 @@
+{
+    "filepath": "",
+    "inmodule": [
+        {
+            "arrowout": {
+                "arrowstate": 3,
+                "point": [
+                    -310,
+                    -180,
+                    -270,
+                    -180
+                ],
+                "pos.x": -270,
+                "pos.y": -180
+            },
+            "pos.x": -340,
+            "pos.y": -200
+        }
+    ],
+    "modulebase": [
+        {
+            "arrowinlist": [
+                {
+                    "pos.x": 0,
+                    "pos.y": 30
+                }
+            ],
+            "arrowinnum": 1,
+            "arrowoutlist": [
+                {
+                    "arrowstate": 3,
+                    "movepoint": false,
+                    "point": [
+                        30,
+                        -180,
+                        90,
+                        -180
+                    ],
+                    "pos.x": 90,
+                    "pos.y": -180
+                }
+            ],
+            "arrowoutnum": 1,
+            "modulename": "放大器",
+            "pos.x": -90,
+            "pos.y": -210
+        },
+        {
+            "arrowinlist": [
+                {
+                    "pos.x": 0,
+                    "pos.y": 30
+                }
+            ],
+            "arrowinnum": 1,
+            "arrowoutlist": [
+                {
+                    "arrowstate": 3,
+                    "movepoint": false,
+                    "point": [
+                        -130,
+                        -180,
+                        -90,
+                        -180
+                    ],
+                    "pos.x": -90,
+                    "pos.y": -180
+                }
+            ],
+            "arrowoutnum": 1,
+            "modulename": "阻抗匹配",
+            "pos.x": -270,
+            "pos.y": -210
+        }
+    ],
+    "moduledata": {
+        "低通滤波器": {
+            "inputNum": 1,
+            "moduleName": "低通滤波器",
+            "moduleNum": 5,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "100",
+                        "200",
+                        "500"
+                    ],
+                    "form": true,
+                    "parametername": "截止频率",
+                    "parameterunit": "Hz"
+                }
+            ]
+        },
+        "带通滤波器": {
+            "inputNum": 1,
+            "moduleName": "带通滤波器",
+            "moduleNum": 5,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "100",
+                        "200",
+                        "250",
+                        "400",
+                        "800"
+                    ],
+                    "form": true,
+                    "parametername": "上限截止频率",
+                    "parameterunit": "Hz"
+                },
+                {
+                    "combobox": [
+                        "100",
+                        "200",
+                        "400",
+                        "600"
+                    ],
+                    "form": true,
+                    "parametername": "下限截止频率",
+                    "parameterunit": "Hz"
+                }
+            ]
+        },
+        "放大器": {
+            "inputNum": 1,
+            "moduleName": "放大器",
+            "moduleNum": 1,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "1",
+                        "1.5",
+                        "2"
+                    ],
+                    "form": true,
+                    "parametername": "增益",
+                    "parameterunit": "倍"
+                }
+            ]
+        },
+        "电压偏置模块": {
+            "inputNum": 1,
+            "moduleName": "电压偏置模块",
+            "moduleNum": 1,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "1.1"
+                    ],
+                    "form": true,
+                    "parametername": "偏置电压",
+                    "parameterunit": "V"
+                }
+            ]
+        },
+        "直流偏置电路": {
+            "inputNum": 1,
+            "moduleName": "直流偏置电路",
+            "moduleNum": 5,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "1",
+                        "1.2",
+                        "1.6",
+                        "1.8",
+                        "2.0",
+                        "2.2",
+                        "2.4"
+                    ],
+                    "form": true,
+                    "parametername": "偏置电压",
+                    "parameterunit": "V"
+                }
+            ]
+        },
+        "阻抗匹配": {
+            "inputNum": 1,
+            "moduleName": "阻抗匹配",
+            "moduleNum": 1,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "50"
+                    ],
+                    "form": true,
+                    "parametername": "匹配电阻",
+                    "parameterunit": "Ω"
+                }
+            ]
+        }
+    },
+    "outmodule": [
+        {
+            "pos.x": 90,
+            "pos.y": -200
+        }
+    ]
+}

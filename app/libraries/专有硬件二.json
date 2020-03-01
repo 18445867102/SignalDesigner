@@ -1,0 +1,43 @@
+{
+    "boardid": "专有硬件二",
+    "boardinput": "2",
+    "boardoutput": "2",
+    "modules": [
+        {
+            "inputNum": 1,
+            "moduleName": "放大器",
+            "moduleNum": 5,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "1",
+                        "1.5",
+                        "2"
+                    ],
+                    "form": true,
+                    "parametername": "增益",
+                    "parameterunit": "P"
+                }
+            ]
+        },
+        {
+            "inputNum": 1,
+            "moduleName": "低通滤波器",
+            "moduleNum": 5,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "100",
+                        "200",
+                        "500"
+                    ],
+                    "form": true,
+                    "parametername": "截止频率",
+                    "parameterunit": "Hz"
+                }
+            ]
+        }
+    ]
+}

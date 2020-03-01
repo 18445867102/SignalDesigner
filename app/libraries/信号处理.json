@@ -1,0 +1,93 @@
+{
+    "boardid": "0918.5684.02",
+    "modules": [
+        {
+            "inputNum": 1,
+            "moduleName": "放大器",
+            "moduleNum": 20,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "form": false,
+                    "max": 100,
+                    "min": 0,
+                    "parametername": "增益",
+                    "parameterunit": "P",
+                    "step": 1
+                }
+            ]
+        },
+        {
+            "inputNum": 1,
+            "moduleName": "低通滤波器",
+            "moduleNum": 10,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "form": false,
+                    "max": 100,
+                    "min": 0,
+                    "parametername": "截止频率",
+                    "parameterunit": "hz",
+                    "step": 1
+                }
+            ]
+        },
+        {
+            "inputNum": 1,
+            "moduleName": "直流偏置",
+            "moduleNum": 5,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "form": false,
+                    "max": 100,
+                    "min": 0,
+                    "parametername": "偏置电压",
+                    "parameterunit": "V",
+                    "step": 1
+                }
+            ]
+        },
+        {
+            "inputNum": 1,
+            "moduleName": "带通滤波器",
+            "moduleNum": 5,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "form": false,
+                    "max": 100,
+                    "min": 0,
+                    "parametername": "上限截止频率",
+                    "parameterunit": "hz",
+                    "step": 1
+                },
+                {
+                    "form": false,
+                    "max": 100,
+                    "min": 0,
+                    "parametername": "下限截止频率",
+                    "parameterunit": "hz",
+                    "step": 1
+                }
+            ]
+        },
+        {
+            "inputNum": 1,
+            "moduleName": "阻抗匹配单元",
+            "moduleNum": 40,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "form": false,
+                    "max": 100,
+                    "min": 0,
+                    "parametername": "匹配电阻",
+                    "parameterunit": "Ω",
+                    "step": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/serial.ico</file>
+        <file>icon/down.png</file>
+        <file>icon/up.png</file>
+        <file>icon/left.png</file>
+        <file>icon/right.png</file>
+        <file>icon/add.png</file>
+        <file>icon/sub.png</file>
+        <file>icon/exec_72px.ico</file>
+        <file>icon/download_48px.ico</file>
+        <file>icon/connector_48px.ico</file>
+        <file>icon/connector_32px.ico</file>
+        <file>icon/document_24px.ico</file>
+        <file>icon/exec64px.ico</file>
+        <file>icon/app.ico</file>
+        <file>icon/save.ico</file>
+        <file>icon/qt.png</file>
+        <file>icon/close.ico</file>
+        <file>icon/pin_24px_1128095_easyicon.net.ico</file>
+        <file>icon/Minus_24px_1194077_easyicon.net.ico</file>
+        <file>icon/Plus_24px_1194084_easyicon.net.ico</file>
+        <file>icon/triangle_down_16px_1189852_easyicon.net.ico</file>
+    </qresource>
+</RCC>

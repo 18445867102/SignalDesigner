@@ -1,0 +1,100 @@
+{
+    "boardid": "专有硬件一",
+    "boardinput": "",
+    "boardoutput": "",
+    "modules": [
+        {
+            "inputNum": 1,
+            "moduleName": "放大器",
+            "moduleNum": 5,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "1",
+                        "1.5",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "form": true,
+                    "parametername": "增益",
+                    "parameterunit": "P"
+                }
+            ]
+        },
+        {
+            "inputNum": 1,
+            "moduleName": "带通滤波器",
+            "moduleNum": 5,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "100",
+                        "200",
+                        "250",
+                        "400",
+                        "800"
+                    ],
+                    "form": true,
+                    "parametername": "上限截止频率",
+                    "parameterunit": "Hz"
+                },
+                {
+                    "combobox": [
+                        "100",
+                        "200",
+                        "400",
+                        "600"
+                    ],
+                    "form": true,
+                    "parametername": "下限截止频率",
+                    "parameterunit": "Hz"
+                }
+            ]
+        },
+        {
+            "inputNum": 1,
+            "moduleName": "直流偏置电路",
+            "moduleNum": 5,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "1",
+                        "1.2",
+                        "1.6",
+                        "1.8",
+                        "2.0",
+                        "2.2",
+                        "2.4"
+                    ],
+                    "form": true,
+                    "parametername": "偏置电压",
+                    "parameterunit": "V"
+                }
+            ]
+        },
+        {
+            "inputNum": 1,
+            "moduleName": "低通滤波器",
+            "moduleNum": 5,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "100",
+                        "200",
+                        "400",
+                        "600",
+                        "800"
+                    ],
+                    "form": true,
+                    "parametername": "截止频率",
+                    "parameterunit": "Hz"
+                }
+            ]
+        }
+    ]
+}

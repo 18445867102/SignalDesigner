@@ -1,0 +1,39 @@
+{
+    "boardid": "20190602",
+    "boardinput": "1",
+    "boardoutput": "1",
+    "modules": [
+        {
+            "inputNum": 1,
+            "moduleName": "放大器",
+            "moduleNum": 5,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "form": false,
+                    "max": 100,
+                    "min": 0,
+                    "parametername": "增益",
+                    "parameterunit": "P",
+                    "step": 1
+                }
+            ]
+        },
+        {
+            "inputNum": 1,
+            "moduleName": "滤波器",
+            "moduleNum": 5,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "form": false,
+                    "max": 100,
+                    "min": 0,
+                    "parametername": "截止频率",
+                    "parameterunit": "Hz",
+                    "step": 1
+                }
+            ]
+        }
+    ]
+}

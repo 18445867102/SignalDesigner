@@ -1,0 +1,59 @@
+{
+    "boardid": "吴晴信号处理智能硬件",
+    "boardinput": "",
+    "boardoutput": "",
+    "modules": [
+        {
+            "inputNum": 1,
+            "moduleName": "放大器",
+            "moduleNum": 1,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "1.8",
+                        "2.8",
+                        "3.5",
+                        "4.4"
+                    ],
+                    "form": true,
+                    "parametername": "增益",
+                    "parameterunit": "倍"
+                }
+            ]
+        },
+        {
+            "inputNum": 1,
+            "moduleName": "阻抗匹配",
+            "moduleNum": 1,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "50"
+                    ],
+                    "form": true,
+                    "parametername": "匹配电阻",
+                    "parameterunit": "Ω"
+                }
+            ]
+        },
+        {
+            "inputNum": 1,
+            "moduleName": "直流偏置模块",
+            "moduleNum": 1,
+            "outputNum": 1,
+            "parameters": [
+                {
+                    "combobox": [
+                        "1",
+                        "2.5"
+                    ],
+                    "form": true,
+                    "parametername": "偏置电压",
+                    "parameterunit": "V"
+                }
+            ]
+        }
+    ]
+}
